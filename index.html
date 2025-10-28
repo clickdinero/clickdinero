@@ -1,53 +1,62 @@
 <!DOCTYPE html>
 <html lang="es">
-<head<!-- Google AdSense -->
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3952806439084882"
-     crossorigin="anonymous"></script>>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
 <title>ClickDinero - Gana dinero fácil y rápido</title>
 <link rel="manifest" href="manifest.json">
 <link rel="stylesheet" href="style.css">
 <link rel="icon" href="img/logo.png">
 <script src="scripts.js" defer></script>
-<!-- Google AdSense -->
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3952806439084882"
-     crossorigin="anonymous"></script>
 </head>
 <body>
 <header>
   <img src="img/logo.png" alt="ClickDinero" class="logo">
-  <h1>ClickDinero</h1>
-  <p>Gana dinero fácil y rápido desde tu celular o PC</p>
+  <div class="title-wrap">
+    <h1>ClickDinero</h1>
+    <p>Gana dinero fácil y rápido desde tu celular o PC</p>
+  </div>
 </header>
-<section<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-3952806439084882"
-     data-ad-slot="1234567890"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script> class="ad ad-top"></section>
+
+<section class="ad ad-top"></section>
+
 <main>
   <h2>Ofertas y Afiliados</h2>
-  <div class="offers">
-    <a href="https://ad.admitad.com/goto/xyz123/?subid=ClickDinero" class="offer-card"><h3>Encuestas pagadas</h3><p>Responde encuestas y gana hasta $3.000 CLP diarios.</p></a>
-    <a href="https://ad.admitad.com/goto/xyz123/?subid=ClickDinero" class="offer-card"><h3>Afíliate y gana</h3><p>Invita a otros y recibe un 10% de sus ganancias.</p></a>
-    <a href="https://ad.admitad.com/goto/xyz123/?subid=ClickDinero" class="offer-card"><h3>Ofertas del día</h3><p>Completa simples tareas y suma ingresos extra.</p></a>
+  <div class="offers" id="offers">
+    <a href="https://ad.admitad.com/goto/example123/" target="_blank" class="offer-card" data-id="admitad-1">
+      <h3>Admitad - Regístrate y gana</h3>
+      <p>Ofertas de registro con pago por acción. (Ejemplo)</p>
+    </a>
+    <a href="https://www.cpalead.com/example" target="_blank" class="offer-card" data-id="cpalead-1">
+      <h3>CPAlead - Encuestas y tareas</h3>
+      <p>Completa tareas y gana recompensas. (Ejemplo)</p>
+    </a>
+    <a href="https://www.clickbank.com/example" target="_blank" class="offer-card" data-id="clickbank-1">
+      <h3>ClickBank - Productos digitales</h3>
+      <p>Cursos y productos digitales con comisiones. (Ejemplo)</p>
+    </a>
   </div>
-  <div class="cta"><a href="#" class="button-main">Comienza ahora</a></div>
+
+  <div class="cta">
+    <a href="#" class="button-main" id="startBtn">Comienza ahora</a>
+  </div>
+
+  <section class="stats-panel" id="statsPanel">
+    <h3>Panel de estadísticas (local)</h3>
+    <div class="stats">
+      <div>Clicks totales: <span id="stat-total">0</span></div>
+      <div>Clicks por oferta:</div>
+      <ul id="stat-list"></ul>
+      <button id="resetStats" class="small-btn">Resetear estadísticas</button>
+    </div>
+  </section>
 </main>
-<section clas<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-3952806439084882"
-     data-ad-slot="1234567890"
-     crossorigin="anonymous"></script>"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>s="ad ad-bottom"></section>
-<footer><p>© 2025 ClickDinero | Plataforma automatizada de recompensas</p></footer>
+
+<section class="ad ad-bottom"></section>
+
+<footer>
+  <p>© 2025 ClickDinero | Plataforma automatizada de ofertas y afiliados</p>
+</footer>
+
 </body>
 </html>
